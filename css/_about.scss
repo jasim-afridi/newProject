@@ -1,0 +1,45 @@
+.about{
+transform: translate(0,-150px);
+
+    &_content{
+        max-width: 850px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        margin: 0 auto;
+       
+        background-color:#ecf0f1;
+        &_header{
+            color: #fff;
+            padding: 1rem;
+            background-color: #ffa726;
+            margin-bottom: 1rem;
+            h2{
+                font-size: 2rem;
+                margin-bottom: 1rem;
+            }
+            p{
+                font-size: 22px;
+            }
+        }
+        &_body{
+padding: 1rem;
+            p{
+                margin-bottom: 1rem;
+                line-height: 25px;
+            }
+            h4{
+                margin-bottom: 1rem;
+                line-height: 25px;
+        
+                font-style: italic;   
+            }
+            &_footer{
+                border-top: 1px dashed gray;
+                margin-bottom: 0!important;
+                padding-top: 1rem ;
+                span{
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}

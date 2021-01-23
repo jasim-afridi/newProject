@@ -1,0 +1,36 @@
+@font-face{
+    font-family: Raleway;
+    src: url(../font//Raleway-Regular.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Raleway;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;  
+  margin-left: auto;
+  margin-right: auto;
+}
+@import "_navbar";
+@import "_hero";
+@import "_about";
+@import "_service";
+@import "_project";
+@import "_footer";
+
+@import "_media";
+
+// body css;
